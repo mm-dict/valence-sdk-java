@@ -31,7 +31,7 @@ public class D2LSigner {
      * Provides the D2L custom encoded version of hmacSha256 hash of the data provided using the key provided
      * @param key The key to use to calculate the hash
      * @param data The data to use to calculate the hash
-     * @return 
+     * @return string
      */
     public static String getBase64HashString( String key, String data ) {
         byte[] keyBytes = getBytes( key );
